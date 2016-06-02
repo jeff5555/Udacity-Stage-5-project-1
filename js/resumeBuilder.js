@@ -13,7 +13,7 @@ var bio = {
 	"welcomeMessage" : "Must be a great day to be here with you.",
 	"skills" : ["Out of box thinking", "Analytic Thinking", "Data Analysis", "Results driven", "PMP", "Six Sigma Green Belt"],
 	//"biopic" : "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG",
-	"biopic" : "https://github.com/jeff5555/Udacity-Stage-5-project-1/blob/master/GNDKIDS.png"
+	"biopic" : "images/GNDKIDS.png"
 };
 bio.display = function(){
 
@@ -224,7 +224,7 @@ var projects = {
 		"title" : "Stage 1 Notes",
 		"dates" : "2016",
 		"description" : "My first web page for notes.",
-		"images" : ["https://github.com/jeff5555/Udacity-Stage-5-project-1/blob/master/Stage_2.png"],	
+		"images" : ["images/Stage_2.png"],	
 	},
 	]	
 };
