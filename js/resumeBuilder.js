@@ -72,7 +72,7 @@ var education = {
 		"name" : "Heald Insitute of Technology",
 		"location" : "Rancho Cordova, Ca.",
 		"degree" : "Electronics Certification",
-		"majors" : ["Electronic Techician"],
+		"majors" : ["Electronic Technician"],
 		"dates" : "1997",
 		"url" : "http://ciac.csusb.edu/HealdCatalogs/1994%20Heald%20Institute%20of%20Technology.pdf",	
 	},
@@ -109,9 +109,9 @@ education.display = function(){
 	var formattedSchdate = HTMLschoolDates.replace("%data%",education.schools[school].dates);
 	$(".education-entry:last").append(formattedSchdate);
 	}
+	
 	$("#education").append(HTMLonlineClasses);
 	for (var course in education.onlineCourses) {
-	//$("#education").append(HTMLonlineClasses);
 	$("#education").append(HTMLonlineStart);
 	
 	var formattedonlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
